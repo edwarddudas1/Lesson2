@@ -1,21 +1,21 @@
-
+import AgeCounter from "./components/main/AgeCounter"
+import GuessNumber from "./components/main/GuessNumber"
+import Calculator from "./components/main/Calculator"
+import RockPaperScissors from "./components/main/RockPaperScissors"
+import HighestNumber from "./components/main/HighestNumber"
+import ChooseScientists from "./components/main/ChooseScientists"
 import './App.css'
 
 function App() {
-
-let age: number = 50;
-let name:  string = 'Max';
-let toggle: boolean = true;
-let empty: null = null;
-let notInitiaSize: undefined = undefined;
-let callback = (a: number): number => {
-  return 100 + a
-};
-console.log(age, name, toggle)
-console.log(callback(2))
   return (
     <>
-    <h1>first project on tp</h1>
+    <h1>Mini-project</h1>
+    <AgeCounter/>
+    <GuessNumber/>
+    <Calculator/>
+    <RockPaperScissors/>
+    <HighestNumber/>
+    <ChooseScientists/>
     </>
   )
 }

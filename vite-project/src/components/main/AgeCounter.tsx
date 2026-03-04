@@ -10,6 +10,7 @@ export default function AgeCounter() {
 
   return (
     <>
+      <h2>Перевір в який рік ти народився</h2>
       <input type="number" onClick={(e) => setInputValue(Number(e.target.value))} />
       <button onClick={() => calc(inputValue)}>submit</button>
       <p>{result}</p>
